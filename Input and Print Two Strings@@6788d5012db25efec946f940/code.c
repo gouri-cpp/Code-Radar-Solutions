@@ -5,9 +5,9 @@
 int main() {
     char one[100];
     char two[100];
-    scanf("%c",&one);
-    scanf("%c",&two);
-    printf("You entered:  %c and %c",one, two);
+    scanf("%s",&one);
+    scanf("%s",&two);
+    printf("You entered:  %s and %s",one, two);
     
     return 0;
 }
