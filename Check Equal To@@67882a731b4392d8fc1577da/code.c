@@ -7,6 +7,5 @@ int main() {
     scanf("%d",&a);
     scantf("%d",&b);
     a==b?printf("True"):printf("False");
-    printf("%s", welcome());
     return 0;
 }
