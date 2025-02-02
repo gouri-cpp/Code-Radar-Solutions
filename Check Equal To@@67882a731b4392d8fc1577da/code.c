@@ -3,6 +3,11 @@ int main() {
     int a , b ;
     scanf("%d",& a);
     scantf("%d",& b);
-    a == b? printf("True"): printf("False");
+    if (a==b){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
     return 0;
 }
