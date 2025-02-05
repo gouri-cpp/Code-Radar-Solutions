@@ -1,8 +1,4 @@
-#include <stdio.h>
-
-
-int main() {
-    #include <stdio.h>
+#include <stdio>
 
 int main() {
     int a, b, c;
