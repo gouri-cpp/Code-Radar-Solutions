@@ -5,15 +5,15 @@ int main() {
     int a,b;
     scanf("%d %d",&a ,&b);
     char ch;
-    scanf("%f",&ch);
+    scanf("%c",&ch);
     if(ch == +){
         printf(a+b);
     }else if (ch == -){
         printf(a-b);
     }else if (ch == *){
         printf(a*b);
-    }else if (ch == ){
-        printf(a-b);
+    }else if (ch == /){
+        printf(a/b);
     }
     return 0;
 }
