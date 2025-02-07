@@ -20,6 +20,7 @@ int main() {
     } else if (ch == '/') {
         if (b == 0) {
             printf("error");
+            return 1;
         }
         printf("%d", a / b);
     } else {
