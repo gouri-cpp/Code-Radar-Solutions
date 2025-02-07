@@ -31,6 +31,6 @@ int main() {
     }else{
         printf("Invalid");
     }
-    printf("%s", welcome());
+   
     return 0;
 }
