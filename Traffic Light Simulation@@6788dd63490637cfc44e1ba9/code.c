@@ -11,7 +11,7 @@ int main() {
     }else if(ch == 'Y'){
         printf("Wait");
     }else {
-        printf("Invalid input")
+        printf("Invalid input");
     }
     return 0;
 }
