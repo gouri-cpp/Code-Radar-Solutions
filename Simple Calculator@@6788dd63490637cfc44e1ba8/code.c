@@ -8,14 +8,11 @@ int main() {
     scanf("%f",&ch);
     if(ch == +){
         printf(a+b);
-    }
-    else if (ch == -){
+    }else if (ch == -){
         printf(a-b);
-    }
-    else if (ch == *){
+    }else if (ch == *){
         printf(a*b);
-    }
-    else if (ch == /){
+    }else if (ch == ){
         printf(a-b);
     }
     return 0;
