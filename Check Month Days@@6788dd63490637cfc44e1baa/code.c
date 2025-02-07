@@ -29,7 +29,7 @@ int main() {
     }else if (i == 12){
         printf("%d",31);
     }else{
-        printf("Invalid");
+        printf("Invalid Month");
     }
    
     return 0;
