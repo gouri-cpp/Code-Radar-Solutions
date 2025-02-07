@@ -3,9 +3,10 @@
 
 int main() {
     int a,b;
-    scanf("%d %d",&a ,&b);
     char ch;
     scanf("%c",&ch);
+    scanf("%d %d",&a ,&b);
+
     if(ch == '+'){
         printf("%d",a+b);
     }else if (ch == '-'){
