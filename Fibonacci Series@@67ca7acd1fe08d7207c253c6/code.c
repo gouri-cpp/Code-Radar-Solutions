@@ -15,7 +15,6 @@ int fibo(int n){
    int fibonm1 = fibo(n-1);
    int fibonm2 = fibo(n-2);
    int fiboN = fibonm1 +fibonm2;
-   // printf("%d",fiboN);
    return fiboN;
 
 }
