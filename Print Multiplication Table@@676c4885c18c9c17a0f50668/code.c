@@ -4,7 +4,7 @@ int main() {
     int N;
     
     // Taking input
-    printf("Enter a number: ");
+    // printf("Enter a number: ");
     scanf("%d", &N);
     
     // Printing multiplication table from 1 to 10
