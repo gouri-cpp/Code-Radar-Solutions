@@ -11,7 +11,7 @@ int fibo(int n){
       return 0;
    }
    if (n == 1){
-      return 1 ;
+      return 0 ;
    }
    int fibonm1 = fibo(n-1);
    int fibonm2 = fibo(n-2);
