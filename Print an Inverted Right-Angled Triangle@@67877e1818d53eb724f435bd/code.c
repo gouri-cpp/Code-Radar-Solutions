@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, n;
+    int N;
 
+    // Taking input
     // printf("Enter the number of rows: ");
-    scanf("%d", &n);
+    scanf("%d", &N);
 
-    for (i = 1; i <= n; i++) {
-        for (j = 1; j <= n - i; j++) {
-            printf("  ");
-        }
-        for (j = 1; j <= i; j++) {
-            printf("* ");
+    // Loop to print the inverted right-angled triangle
+    for (int i = N; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
+            printf("*");
         }
         printf("\n");
     }
